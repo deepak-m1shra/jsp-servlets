@@ -13,6 +13,8 @@
 
 <h1>JSP Demo</h1>
 
+<a href="student-form.html">Student Form</a>
+
 
 <h2>JSP Expressions Demo</h2>
 <p>Fetching date from the server <%= new java.util.Date() %>
