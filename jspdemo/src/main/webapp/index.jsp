@@ -9,6 +9,8 @@
 </head>
 <body>
 
+<jsp:include page="header.html" />
+
 <h1>JSP Demo</h1>
 
 
@@ -49,6 +51,8 @@
 Request user-agent: <%= request.getHeader("User-Agent") %>
 <br/><br/>
 Request language: <%= request.getLocale() %>
+
+<jsp:include page="footer.jsp" />
 
 </body>
 </html>
