@@ -38,6 +38,9 @@
 			<c:if test="${student.goldCustomer}">
 				<td>Special Offer</td>
 			</c:if>
+			<c:if test="${not student.goldCustomer}">
+				<td>No Offer</td>
+			</c:if>
 		</tr>
 		</c:forEach>
 	</table>
